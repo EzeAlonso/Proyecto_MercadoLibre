@@ -1,0 +1,29 @@
+body{
+font-family: "Roboto";
+}
+.color-main{
+    color: #666
+}
+.bg-main {
+    background-color: #EAC926;
+    padding: 16px;
+}
+.bg-blue {
+    background-color: #03264c;
+}
+.bg-light-blue{
+    background-color: #1259c3;;
+}
+.bg-green {
+    background-color: #39b54a;;
+}
+.text-center{
+    text-align: center;
+}
+#width-50{
+    width: 50%;
+}
+.w100{
+    width: 100%;
+}
+

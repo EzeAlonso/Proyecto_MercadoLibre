@@ -1,0 +1,12 @@
+.burger-menu{
+    width: 42px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 27px;
+    border-radius: 5px;
+    background-color: #1259c3;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-top: 8px;
+}
