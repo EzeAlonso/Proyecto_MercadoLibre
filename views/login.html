@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="/css/normalize.css" />
     <link rel="stylesheet" href="/css/theme.css" />
 
-    <!-- <link rel="stylesheet" href="/css/home.css" /> -->
+    
   </head>
 
   <body>
@@ -30,13 +30,18 @@
         <h1 class="width-50">
           <img src="/images/logo-mercado-liebre.svg" alt="Mercado Liebre" />
         </h1>
-        <p>lugar para la barra de busqueda</p>
+        <form id="search-form">
+          <input type="search" name="search" id="search" placeholder="Artículos, marcas"/>
+          <button type="submit" id="search-btn" >
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
         <p class="text-center">
           <i class="fas fa-hand-holding-usd"></i>
           Comprá en cuotas y sin tarjeta de crédito
         </p>
       </section>
-      <nav>
+      <nav class="navbar">
         <ul>
           <li><a href="">Ofertas</a></li>
           <li><a href="">Tiendas Oficiales</a></li>
@@ -58,6 +63,27 @@
       </nav>
       <div class="burger-menu">
         <i class="fas fa-bars"></i>
+      </div>
+      <div>
+          <label class="hidden" for="username">Usuario</label>
+        <input
+          class="input-box"
+          type="username"
+          name="username"
+          id="username"
+          placeholder="Usuario"
+        />
+          <label class="hidden" for="password">Contraseña</label>
+        <input
+          class="input-box"
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Contraseña"
+        />
+         <button class="button-primary send-button" type="submit">
+          Continuar
+        </button>
       </div>
     </header>
     <main></main>

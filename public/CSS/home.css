@@ -51,18 +51,47 @@
   flex-wrap: wrap;
 }
 
-/* Tablet + */
+.footer {
+  color: rgb(58, 61, 61);
+}
+
+.center {
+  text-align: center;
+  font-weight: bold;
+}
+.container-footer {
+  display: flex;
+  font-size: 20px;
+
+}
+.p{
+  color:#1259c3;
+  font-size: 35px;
+}
+
+/*TABLET*/
 @media (min-width: 480px) {
-  /* nada por ahora*/
+  
   .product-card {
     width: calc(50% - 16px);
   }
+    
 }
 
-/* Laptop + */
+footer{
+    display: flex;    
+    flex-direction: column;
+}
+/* NOTEBOOK + */
 @media (min-width: 768px) {
+  footer{
+    flex-direction: row;
+  }
+
+
   .product-card {
     box-shadow: none;
+
 
     width: calc(25% - 16px);
   }
